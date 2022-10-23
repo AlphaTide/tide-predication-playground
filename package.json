@@ -1,0 +1,18 @@
+{
+  "name": "tidetest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "yarn@3.2.4",
+  "dependencies": {
+    "aquadamus": "^0.1.1",
+    "esbuild": "^0.15.12",
+    "esbuild-runner": "^2.2.2",
+    "got": "^12.5.2",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "dev": "esr index.js"
+  }
+}
